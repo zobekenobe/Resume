@@ -1,6 +1,7 @@
 import streamlit as st
 
 project_list = [
+    '',
     'Software Developer Salary Prediction',
     'Random Badminton Player Selector',
     'Palmers Penguin Predictor',
