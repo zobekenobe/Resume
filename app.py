@@ -1,5 +1,5 @@
 import streamlit as st
-st.set_page_config('wide')
+st.set_page_config('Zohebs Machine learning portfolio', layout = 'wide')
 project_list = [
     'About me',
     'Software Developer Salary Prediction',
@@ -15,7 +15,7 @@ from PIL import Image
 image = Image.open('me.jpeg')
 st.title('My growing Portfolio of small machine learning projects')
 
-col1, col2 = st.columns([10,2])
+col1, col2 = st.columns([4,2])
 with col2:
     st.image(image, width = 200)
     st.caption('Zoheb Khan')
