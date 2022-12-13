@@ -1,7 +1,7 @@
 import streamlit as st
 st.set_page_config('wide')
 project_list = [
-    '',
+    'About me',
     'Software Developer Salary Prediction',
     'Random Badminton Player Selector',
     'Palmers Penguin Predictor',
