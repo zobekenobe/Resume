@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 from project1 import show_project1
 from project2 import show_project2
-# from project3 import show_project3
+from project3 import show_project3
 # from project4 import show_project4
 
 st.set_page_config('Zohebs Machine learning portfolio', layout = 'wide')
@@ -37,3 +37,5 @@ elif option == project_list[1]:
     show_project1()
 elif option == project_list[2]:
     show_project2()
+elif option == project_list[3]:
+    show_project3()
