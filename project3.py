@@ -15,5 +15,5 @@ def show_project3():
             })
         st.table(lib)
         st.info('Check out the app [here](https://zobekenobe-penguin-app-app-f10ya9.streamlit.app/) ')
-        st.image('penguin.jpg')
+        st.image('Penguin.jpg')
         st.caption('Screenshot of the front page')
