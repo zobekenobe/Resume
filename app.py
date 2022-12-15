@@ -3,7 +3,7 @@ from PIL import Image
 from project1 import show_project1
 from project2 import show_project2
 from project3 import show_project3
-# from project4 import show_project4
+from project4 import show_project4
 
 st.set_page_config('Zohebs Machine learning portfolio', layout = 'wide')
 project_list = [
@@ -24,10 +24,10 @@ if option == project_list[0]:
     col1, col2 = st.columns([4,2])
     with col2:
         st.image(image, width = 200)
-        st.caption('Zoheb Khan')
+        st.caption('My Garmin and me on my bikepacking expedition to Connemara')
 
     with col1:
-        st.markdown("Hi there, welcome to my portfolio")
+        st.markdown("Hi there, welcome to my portfolio. These projects were created during my learning and range from supervised regression and classification problems, classification using convolutional neural networks and data wrangling")
         st.markdown("Im a computational research scientist working as Post-Doctoral Research Fellow at the University College Dublin")
         st.markdown("I use computational fluid dynamics and artificial intelligence to simulate and study flow fields in membrane separators")
         st.markdown("I love spending time outdoors and when not in the lab, I cycle, run and play badminton")
@@ -39,3 +39,5 @@ elif option == project_list[2]:
     show_project2()
 elif option == project_list[3]:
     show_project3()
+elif option == project_list[4]:
+    show_project4()
